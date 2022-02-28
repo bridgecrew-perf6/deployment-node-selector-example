@@ -1,0 +1,3 @@
+kubectl label nodes <node-name> state=stateless
+kubectl label nodes <node-name> state=stateful
+kubectl get nodes --show-labels
